@@ -6,7 +6,7 @@ The main features is full page flip and random color views ~.
 
 [demo: https://themes.gohugo.io/theme/hugo-theme-dream/](https://themes.gohugo.io/theme/hugo-theme-dream/)
 
-![screenshot](./images/screenshot.png)
+![screenshot](screenshot.png)
 
 All tags of this theme:
 
