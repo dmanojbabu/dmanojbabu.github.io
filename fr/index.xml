@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manoj&#39;s Website</title>
+    <link>https://example.com/fr/</link>
+    <description>Recent content on Manoj&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bonjour!</title>
+      <link>https://example.com/fr/a-propos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/a-propos/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam sit amet nisl purus. Mattis molestie a iaculis at erat pellentesque. Mauris sit amet massa vitae tortor condimentum. Bibendum enim facilisis gravida neque. Orci dapibus ultrices in iaculis. Elit ut aliquam purus sit. Ac tortor dignissim convallis aenean et tortor at. Condimentum mattis pellentesque id nibh tortor. Mi proin sed libero enim sed faucibus turpis.</description>
+    </item>
+    
+    <item>
+      <title>Première Post</title>
+      <link>https://example.com/fr/blog/first-post/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/blog/first-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Feugiat in fermentum posuere urna nec tincidunt praesent. Auctor elit sed vulputate mi sit amet. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. At varius vel pharetra vel turpis nunc. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Congue nisi vitae suscipit tellus mauris a diam maecenas.</description>
+    </item>
+    
+    <item>
+      <title>Curriculum</title>
+      <link>https://example.com/fr/curriculum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/curriculum/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

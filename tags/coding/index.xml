@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on Manoj&#39;s Website</title>
+    <link>https://example.com/tags/coding/</link>
+    <description>Recent content in coding on Manoj&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>https://example.com/blog/first-post/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/first-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Feugiat in fermentum posuere urna nec tincidunt praesent. Auctor elit sed vulputate mi sit amet. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. At varius vel pharetra vel turpis nunc. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Congue nisi vitae suscipit tellus mauris a diam maecenas.</description>
+    </item>
+    
+  </channel>
+</rss>
