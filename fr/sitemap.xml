@@ -3,180 +3,180 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/fr/a-propos/</loc>
+    <loc>https://manoj.cc/fr/a-propos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/about/"
+                href="https://manoj.cc/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/sobre/"
+                href="https://manoj.cc/pt-br/sobre/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/a-propos/"
+                href="https://manoj.cc/fr/a-propos/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/blog/</loc>
+    <loc>https://manoj.cc/fr/blog/</loc>
     <lastmod>2016-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/blog/"
+                href="https://manoj.cc/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/blog/"
+                href="https://manoj.cc/pt-br/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/blog/"
+                href="https://manoj.cc/fr/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/tags/coding/</loc>
+    <loc>https://manoj.cc/fr/tags/coding/</loc>
     <lastmod>2016-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/coding/"
+                href="https://manoj.cc/tags/coding/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/tags/coding/"
+                href="https://manoj.cc/pt-br/tags/coding/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/tags/coding/"
+                href="https://manoj.cc/fr/tags/coding/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/</loc>
+    <loc>https://manoj.cc/fr/</loc>
     <lastmod>2016-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://manoj.cc/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/"
+                href="https://manoj.cc/pt-br/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/"
+                href="https://manoj.cc/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/blog/first-post/</loc>
+    <loc>https://manoj.cc/fr/blog/first-post/</loc>
     <lastmod>2016-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/blog/first-post/"
+                href="https://manoj.cc/blog/first-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/blog/first-post/"
+                href="https://manoj.cc/pt-br/blog/first-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/blog/first-post/"
+                href="https://manoj.cc/fr/blog/first-post/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/tags/presentation/</loc>
+    <loc>https://manoj.cc/fr/tags/presentation/</loc>
     <lastmod>2016-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/presentation/"
+                href="https://manoj.cc/tags/presentation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/tags/presentation/"
+                href="https://manoj.cc/pt-br/tags/presentation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/tags/presentation/"
+                href="https://manoj.cc/fr/tags/presentation/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/tags/python/</loc>
+    <loc>https://manoj.cc/fr/tags/python/</loc>
     <lastmod>2016-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/python/"
+                href="https://manoj.cc/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/tags/python/"
+                href="https://manoj.cc/pt-br/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/tags/python/"
+                href="https://manoj.cc/fr/tags/python/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/tags/</loc>
+    <loc>https://manoj.cc/fr/tags/</loc>
     <lastmod>2016-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://manoj.cc/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/tags/"
+                href="https://manoj.cc/pt-br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/tags/"
+                href="https://manoj.cc/fr/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/fr/curriculum/</loc>
+    <loc>https://manoj.cc/fr/curriculum/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/curriculum/"
+                href="https://manoj.cc/curriculum/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://example.com/pt-br/curriculum/"
+                href="https://manoj.cc/pt-br/curriculum/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/curriculum/"
+                href="https://manoj.cc/fr/curriculum/"
                 />
   </url>
   
