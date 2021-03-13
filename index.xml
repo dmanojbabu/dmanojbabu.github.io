@@ -2,15 +2,15 @@
     <channel>
         <title>Manoj&#39;s Tech Blog</title>
         <link>https://manoj.cc/</link>
-        <description>About LoveIt Theme</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Apr 2019 21:29:01 &#43;0800</lastBuildDate>
+        <description>Manoj&#39;s Tech Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Apr 2019 21:29:01 &#43;0800</lastBuildDate>
             <atom:link href="https://manoj.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Golang: Multiple Return Values</title>
-    <link>https://manoj.cc/go_multiple_return_value/</link>
+    <title>Golang How to Return Multiple Value and Error Handling</title>
+    <link>https://manoj.cc/posts/golang-how-to-return-multiple-value-and-error-handling/golang-how-to-return-multiple-value-and-error-handling/</link>
     <pubDate>Sat, 06 Apr 2019 21:29:01 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://manoj.cc/go_multiple_return_value/</guid>
+    <guid>https://manoj.cc/posts/golang-how-to-return-multiple-value-and-error-handling/golang-how-to-return-multiple-value-and-error-handling/</guid>
     <description><![CDATA[<p>Go has built-in support to return more than one values.</p>]]></description>
 </item></channel>
 </rss>
