@@ -1,4 +1,4 @@
-# Golang: Multiple Return Values
+# Golang How to Return Multiple Value and Error Handling
 
 
 Go has built-in support to return more than one values. 

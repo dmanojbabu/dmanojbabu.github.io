@@ -5,32 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Golang: Multiple Return Values - Manoj&#39;s Tech Blog</title><meta name="Description" content="Go has built-in support to return more than one values."><meta property="og:title" content="Golang: Multiple Return Values" />
+        <title>Golang How to Return Multiple Value and Error Handling - Manoj&#39;s Tech Blog</title><meta name="Description" content="Go has built-in support to return more than one values."><meta property="og:title" content="Golang How to Return Multiple Value and Error Handling" />
 <meta property="og:description" content="Go has built-in support to return more than one values." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://manoj.cc/go_multiple_return_value/" /><meta property="og:image" content="https://manoj.cc/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://manoj.cc/golang-how-to-return-multiple-value-and-error-handling/" /><meta property="og:image" content="https://manoj.cc/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2019-04-06T21:29:01&#43;08:00" />
 <meta property="article:modified_time" content="2019-04-06T21:29:01&#43;08:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://manoj.cc/logo.png"/>
 
-<meta name="twitter:title" content="Golang: Multiple Return Values"/>
+<meta name="twitter:title" content="Golang How to Return Multiple Value and Error Handling"/>
 <meta name="twitter:description" content="Go has built-in support to return more than one values."/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://manoj.cc/go_multiple_return_value/" /><link rel="next" href="https://manoj.cc/golang-how-to-return-multiple-value-and-error-handling/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://manoj.cc/golang-how-to-return-multiple-value-and-error-handling/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Golang: Multiple Return Values",
+        "headline": "Golang How to Return Multiple Value and Error Handling",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/manoj.cc\/go_multiple_return_value\/"
+            "@id": "https:\/\/manoj.cc\/golang-how-to-return-multiple-value-and-error-handling\/"
         },"image": ["https:\/\/manoj.cc\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "golang, go","wordcount":  246 ,
-        "url": "https:\/\/manoj.cc\/go_multiple_return_value\/","datePublished": "2019-04-06T21:29:01+08:00","dateModified": "2019-04-06T21:29:01+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        "url": "https:\/\/manoj.cc\/golang-how-to-return-multiple-value-and-error-handling\/","datePublished": "2019-04-06T21:29:01+08:00","dateModified": "2019-04-06T21:29:01+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -106,10 +106,10 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Golang: Multiple Return Values</h1><div class="post-meta">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Golang How to Return Multiple Value and Error Handling</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Manoj</a></span>&nbsp;<span class="post-category">included in <a href="/categories/posts/"><i class="far fa-folder fa-fw"></i>posts</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2019-04-06">2019-04-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;246 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;<span id="/go_multiple_return_value/" class="leancloud_visitors" data-flag-title="Golang: Multiple Return Values">
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;<span id="/golang-how-to-return-multiple-value-and-error-handling/" class="leancloud_visitors" data-flag-title="Golang How to Return Multiple Value and Error Handling">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="content" id="content"><p>Go has built-in support to return more than one values.</p>
@@ -229,10 +229,10 @@
         </div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/go_multiple_return_value/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/golang-how-to-return-multiple-value-and-error-handling/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://manoj.cc/go_multiple_return_value/" data-title="Golang: Multiple Return Values" data-via="manojbabud" data-hashtags="golang,go"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://manoj.cc/go_multiple_return_value/" data-hashtag="golang"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://manoj.cc/go_multiple_return_value/" data-title="Golang: Multiple Return Values" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://manoj.cc/go_multiple_return_value/" data-title="Golang: Multiple Return Values"><i class="fab fa-hacker-news fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://manoj.cc/golang-how-to-return-multiple-value-and-error-handling/" data-title="Golang How to Return Multiple Value and Error Handling" data-via="manojbabud" data-hashtags="golang,go"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://manoj.cc/golang-how-to-return-multiple-value-and-error-handling/" data-hashtag="golang"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://manoj.cc/golang-how-to-return-multiple-value-and-error-handling/" data-title="Golang How to Return Multiple Value and Error Handling" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://manoj.cc/golang-how-to-return-multiple-value-and-error-handling/" data-title="Golang How to Return Multiple Value and Error Handling"><i class="fab fa-hacker-news fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -244,8 +244,7 @@
         </section>
     </div>
 
-    <div class="post-nav">
-            <a href="/golang-how-to-return-multiple-value-and-error-handling/" class="next" rel="next" title="Golang How to Return Multiple Value and Error Handling">Golang How to Return Multiple Value and Error Handling<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
