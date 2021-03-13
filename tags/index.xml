@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Manoj&#39;s Tech Blog</title>
+        <link>https://manoj.cc/tags/</link>
+        <description>Tags - Tag - Manoj&#39;s Tech Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Apr 2019 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://manoj.cc/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>go</title>
+    <link>https://manoj.cc/tags/go/</link>
+    <pubDate>Sat, 06 Apr 2019 21:29:01 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://manoj.cc/tags/go/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>golang</title>
+    <link>https://manoj.cc/tags/golang/</link>
+    <pubDate>Sat, 06 Apr 2019 21:29:01 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://manoj.cc/tags/golang/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
