@@ -10,7 +10,7 @@ We have used In most programming languages, functions can return single value, b
 The main use case of returning more than one values is to return the return the functions result and then the value to identify any error.
 
 
-Example:1
+### Example:1
 The below function shows that the function returns result and then the value to identify any error
 
 {{< highlight golang "linenos=false,codeFences=false,lineNumbersInTable=false,noClasses=false" >}}
@@ -42,7 +42,7 @@ func main() {
 }
 {{< /highlight >}}
 
-Example:2
+### Example:2
 
 The below function shows that it returns 2 ints.
 

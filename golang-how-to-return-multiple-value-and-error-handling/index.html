@@ -131,12 +131,21 @@
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#example1">Example:1</a></li>
+        <li><a href="#example2">Example:2</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
             </div><div class="content" id="content"><p>Go has built-in support to return more than one values.</p>
 <p>We have used In most programming languages, functions can return single value, but in Go, they can return any number of values.</p>
 <p>The main use case of returning more than one values is to return the return the functions result and then the value to identify any error.</p>
-<p>Example:1
-The below function shows that the function returns result and then the value to identify any error</p>
+<h3 id="example1">Example:1</h3>
+<p>The below function shows that the function returns result and then the value to identify any error</p>
 <div class="highlight"><pre class="chroma"><code class="language-golang" data-lang="golang"><span class="kn">package</span> <span class="nx">main</span>
 
 <span class="kn">import</span> <span class="p">(</span>
@@ -163,7 +172,7 @@ The below function shows that the function returns result and then the value to 
   <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Input answer is = &#34;</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Example:2</p>
+<h3 id="example2">Example:2</h3>
 <p>The below function shows that it returns 2 ints.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
